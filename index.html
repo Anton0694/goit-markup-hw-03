@@ -5,43 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css"
+    />
   </head>
   <body>
     <header>
-      <nav class="header-nav">
-        <a class="link logo" href="WebStudio">Web<span class="special-logo">Studio</span></a>
-        <ul class="list menu-list">
-          <li>
+      <nav class="container container-nav">
+        <a class="link logo" href="WebStudio"
+          >Web<span class="special-logo">Studio</span></a
+        >
+        <ul class="list first-nav-items">
+          <li class="item-nav">
             <a class="link menu-link" href="">Студия</a>
           </li>
-          <li>
+          <li class="item-nav">
             <a class="link menu-link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li>
+          <li class="item-nav">
             <a class="link menu-link" href="">Контакты</a>
           </li>
         </ul>
-      </nav>
-      <ul class="list adress">
-        <li><a class="link header-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link header-adress-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
-    </header>
-  
-    <main>
-      <section>
-        <div class="main-title">
-          <h1>Эффективные решения для вашего бизнеса</h1>
 
-          <button class="main-btn-studio" type="button">Заказать услугу</button>
-        </div>
+        <ul class="second-nav-items list">
+          <li class="item-adress">
+            <a class="link header-adress-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item-adress">
+            <a class="link header-adress-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container main-title">
+        <h1 class="hero">Эффективные решения для вашего бизнеса</h1>
+
+        <button class="main-btn-studio" type="button">Заказать услугу</button>
       </section>
 
-      <section>
+      <section class="container">
         <h2 class="title-studio" hidden>Наши особенности</h2>
         <ul class="list">
           <li>
@@ -66,8 +82,10 @@
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
+          </li>
 
-          <li><h3 class="about-studio-title">Современные технологии</h3>
+          <li>
+            <h3 class="about-studio-title">Современные технологии</h3>
             <p class="text-studio-title">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -76,7 +94,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2 class="title-studio">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
@@ -106,7 +124,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="container">
         <h2 class="title-studio">Наша команда</h2>
         <ul class="list">
           <li>
@@ -117,7 +135,9 @@
               height="260"
             />
             <h3 class="about-studio-team">Игорь Демьяненко</h3>
-            <p class="text-studio-team"><span lang="eu">Product Designer</span></p>
+            <p class="text-studio-team">
+              <span lang="eu">Product Designer</span>
+            </p>
           </li>
           <li>
             <img
@@ -127,7 +147,9 @@
               height="260"
             />
             <h3 class="about-studio-team">Ольга Репина</h3>
-            <p class="text-studio-team"><span lang="eu">Frontend Developer</span></p>
+            <p class="text-studio-team">
+              <span lang="eu">Frontend Developer</span>
+            </p>
           </li>
           <li>
             <img
@@ -147,13 +169,15 @@
               height="260"
             />
             <h3 class="about-studio-team">Михаил Ермаков</h3>
-            <p class="text-studio-team"> <span lang="eu">UI Designer</span></p>
+            <p class="text-studio-team"><span lang="eu">UI Designer</span></p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer">
-      <a class="link logo" href="WebStudio">Web<span class="footer-logo">Studio</span></a>
+    <footer class="footer container">
+      <a class="link logo" href="WebStudio"
+        >Web<span class="footer-logo">Studio</span></a
+      >
       <address>
         <ul class="list">
           <li>
@@ -166,10 +190,18 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li><a class="link footer-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link footer-adress-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="link footer-adress-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link footer-adress-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
-  </footer>
+    </footer>
   </body>
 </html>
