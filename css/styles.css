@@ -24,12 +24,13 @@ body {
 
 .container {
   width: 1200px;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin: auto;
 }
 .section {
-  padding: 0 94;
+  padding-top: 94;
+  padding-bottom: 94;
 }
 
 /* Header */
@@ -80,13 +81,19 @@ body {
   color: var(--accent-color);
 }
 
-.logo {
+.logo-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 40;
+  padding-right: auto;
+
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
 }
-.special-logo {
+
+.first-logo {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
@@ -100,25 +107,36 @@ body {
 /* body */
 
 .main-title {
-  /* position: absolute; */
-  /* width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px; */
-  
   text-align: center;
   background: #2f303a;
 }
 .hero {
-  /* margin-top: 280px;
-  margin-bottom: 120; */
+  padding-top: 280px;
+  padding-bottom: 280px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--dark-side-color);
 }
 .main-btn-studio {
+  /* margin-top: 350px;
+  margin-bottom: 200px; */
+
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -126,27 +144,41 @@ body {
   background: var(--accent-color);
   cursor: pointer;
 }
-.title-portfolio {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-}
 .title-studio {
+  margin-bottom: 25px;
+
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   color: var(--primary-text-color);
 }
-.text-portfolio {
-  font-size: 16px;
-  line-height: 1.87;
-  color: var(--secondary-text-color);
+
+.main-features {
+  display: inline-flex;
+  align-self: center;
 }
 .text-studio-title {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
+
+.about-work,
+.about-team {
+  display: inline-flex;
+  margin-top: 25px;
+}
+
+.main-features .item,
+.about-work .item,
+.about-team .item {
+  margin-right: 30px;
+}
+.main-features .item:last-child,
+.about-work .item:last-child,
+.about-team .item:last-child {
+  margin-right: 0;
+}
+
 .text-studio-team {
   font-size: 16px;
   line-height: 1.19;
@@ -154,28 +186,33 @@ body {
   color: var(--secondary-text-color);
 }
 
-.footer-logo {
+.second-logo {
   font-size: 26px;
   line-height: 1.19;
   color: var(--dark-side-color);
 }
 
-.main-btn-portfolio {
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  color: var(--primary-text-color);
+.logo-footer {
+  padding-left: 40px;
+  padding-bottom: 10px;
+
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
 }
-.main-btn-portfolio:hover,
-.main-btn-portfolio:focus {
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  color: var(--dark-side-color);
-  background: var(--accent-color);
-  cursor: pointer;
+.contacts {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  margin: 0 0;
 }
 
+.contacts .item {
+  padding-bottom: 9px;
+}
+.contacts .item:last-child {
+  padding-bottom: 0;
+}
 .maps-link {
   font-family: Roboto;
   font-style: normal;
@@ -198,6 +235,33 @@ body {
 }
 .footer {
   background-color: #2f303a;
+}
+.title-portfolio {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}
+.main-btn-portfolio {
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.main-btn-portfolio:hover,
+.main-btn-portfolio:focus {
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--dark-side-color);
+  background: var(--accent-color);
+  cursor: pointer;
 }
 
 .about-studio-title {
