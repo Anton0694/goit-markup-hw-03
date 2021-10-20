@@ -7,6 +7,30 @@
   --primary-color: #e5e5e5;
 }
 
+P,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -36,10 +60,10 @@ body {
 /* Header */
 
 .container-nav {
-  /* margin-left: 215px;
-  margin-right: 185px; */
+  margin-left: 215px;
+  margin-right: 185px;
   align-items: center;
-  /* padding-right: 30px; */
+  padding-right: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -110,17 +134,21 @@ body {
   text-align: center;
   background: #2f303a;
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .hero {
-  padding-top: 280px;
-  padding-bottom: 280px;
-  margin-left: auto;
-  margin-right: auto;
-
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -129,8 +157,10 @@ body {
   color: var(--dark-side-color);
 }
 .main-btn-studio {
-  /* margin-top: 350px;
-  margin-bottom: 200px; */
+  margin-top: 350px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  border: none;
 
   width: 200px;
   height: 50px;
@@ -142,7 +172,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--dark-side-color);
   background: var(--accent-color);
-  cursor: pointer;
 }
 .title-studio {
   margin-bottom: 25px;
@@ -261,7 +290,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--dark-side-color);
   background: var(--accent-color);
-  cursor: pointer;
 }
 
 .about-studio-title {
