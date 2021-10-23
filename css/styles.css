@@ -59,12 +59,13 @@ body {
 /* Header */
 
 .container-nav {
-  margin-left: 215px;
-  margin-right: 185px;
   align-items: center;
-  padding-right: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.first-nav-items {
+  margin-left: 93px;
 }
 
 .first-nav-items,
@@ -130,7 +131,7 @@ body {
 /* body */
 
 .main-title {
-  text-align: center;
+  align-content: center;
   background: #2f303a;
   padding: 200px 0;
 }
@@ -150,20 +151,24 @@ body {
 
 .hero {
   margin-bottom: 30px;
-  font-weight: 900;
+  font-weight: 696px;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--dark-side-color);
 }
-/* .container-hero {
-  display: flex;
-  align-items: center;
-} */
+.container-hero {
+  padding-left: auto;
+  padding-right: auto;
+  justify-items: center;
+ /*  margin-right: 0;
+  margin-left: 0; */
+
+  /* flex-direction: row;
+  flex-wrap: nowrap; */
+}
 .main-btn-studio {
-  margin-top: 350px;
-  margin-bottom: 200px;
   border-radius: 4px;
   border: none;
 
@@ -188,8 +193,8 @@ body {
 }
 
 .main-features {
-  display: inline-flex;
-  align-self: center;
+  display: flex;
+  align-content: center;
 }
 .text-studio-title {
   line-height: 1.71;
@@ -227,17 +232,14 @@ body {
 }
 
 .logo-footer {
-  padding-left: 40px;
-  padding-bottom: 10px;
-
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
 }
 .contacts {
-  padding-top: 10px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  /* padding-bottom: 60px; */
   margin: 0 0;
 }
 
@@ -300,13 +302,17 @@ body {
 }
 
 .about-studio-title {
+  margin-bottom: 10px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--primary-text-color);
+
 }
 .about-studio-team {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--primary-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
