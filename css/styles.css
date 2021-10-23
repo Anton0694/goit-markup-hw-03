@@ -53,8 +53,7 @@ body {
   padding-right: 15px;
 }
 .section {
-  padding-top: 94;
-  padding-bottom: 94;
+  padding: 94px 0;
 }
 
 /* Header */
@@ -133,6 +132,7 @@ body {
 .main-title {
   text-align: center;
   background: #2f303a;
+  padding: 200px 0;
 }
 
 .visually-hidden {
@@ -149,6 +149,7 @@ body {
 }
 
 .hero {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -156,6 +157,10 @@ body {
   text-transform: uppercase;
   color: var(--dark-side-color);
 }
+/* .container-hero {
+  display: flex;
+  align-items: center;
+} */
 .main-btn-studio {
   margin-top: 350px;
   margin-bottom: 200px;
@@ -264,6 +269,8 @@ body {
 }
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .title-portfolio {
   font-size: 18px;
