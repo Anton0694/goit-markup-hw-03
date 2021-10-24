@@ -184,6 +184,11 @@ body {
   color: var(--dark-side-color);
   background: var(--accent-color);
 }
+
+.container-work{
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .title-studio {
   margin-bottom: 25px;
 
@@ -244,8 +249,7 @@ body {
 .btn-filter-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 16px;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .btn-filter-list .items {
