@@ -281,7 +281,11 @@ img {
   display: flex;
   /* flex-direction: row; */
   flex-wrap: wrap;
-  border-bottom: 1px solid #ececec;
+  
+}
+
+.projects-style {
+border-bottom: 1px solid #ececec;
 }
 
 .projects-items {
