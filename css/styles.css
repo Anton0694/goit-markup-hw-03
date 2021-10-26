@@ -241,6 +241,7 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
+  margin-bottom: 30px;
 }
 .about-studio-title {
   margin-bottom: 10px;
